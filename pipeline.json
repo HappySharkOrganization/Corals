@@ -3,6 +3,14 @@
   "globalEnvironmentVariables" : [
   ],
   "datasources" : [
+    {
+      "guid" : "540d3f02-4c2f-4ccd-bd0b-df7eba992033",
+      "mount" : "/datasources/seed"
+    },
+    {
+      "guid" : "436684b3-7764-4912-bd61-32e5de003384",
+      "mount" : "/datasources/working"
+    }
   ],
   "tasks" : [
   ]
