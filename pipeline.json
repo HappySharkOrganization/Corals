@@ -1,1 +1,38 @@
-{"version":0.1,"globalEnvironmentVariables":[],"tasks":[{"task":"injest","dependsOn":[],"location":{"x":281.38424326192126,"y":252.61506565307536}},{"task":"train","dependsOn":["injest"],"location":{"x":872.2619212163098,"y":136.51278507256393}}]}
+{
+   "version":0.1,
+   "datasources":[
+      {
+         "guid":"540d3f02-4c2f-4ccd-bd0b-df7eba992033",
+         "mount":"/datasources/seed"
+      },
+      {
+         "guid":"436684b3-7764-4912-bd61-32e5de003384",
+         "mount":"/datasources/working"
+      }
+   ],
+   "globalEnvironmentVariables":[
+
+   ],
+   "tasks":[
+      {
+         "task":"injest",
+         "dependsOn":[
+
+         ],
+         "location":{
+            "x":281.38424326192126,
+            "y":252.61506565307536
+         }
+      },
+      {
+         "task":"train",
+         "dependsOn":[
+            "injest"
+         ],
+         "location":{
+            "x":872.2619212163098,
+            "y":136.51278507256393
+         }
+      }
+   ]
+}
